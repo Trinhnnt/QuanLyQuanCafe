@@ -29,30 +29,48 @@ Hệ thống được xây dựng theo mô hình kiến trúc 3 lớp:
 - Đăng nhập an toàn với phân quyền Admin/Staff
 - Xử lý thông báo lỗi khi nhập sai tên tài khoản/mật khẩu
 - Bảo mật thông tin tài khoản
-![Alt text]![image](https://github.com/user-attachments/assets/486b4173-b0d2-465e-aac1-b2f1e53761aa)
+
+![image](https://github.com/user-attachments/assets/486b4173-b0d2-465e-aac1-b2f1e53761aa)
 
 ### Chức năng khôi phục tài khoản
 - Tài khoản không bị xóa hoàn toàn, có thể khôi phục lại trong trường hợp cần thiết
 - Hỗ trợ quản lý tài khoản linh hoạt
+
+![image](https://github.com/user-attachments/assets/8c5f96ed-3328-4c51-8169-f670ee878088)
+
 
 ### Chức năng tạo hóa đơn và thanh toán
 - Hiển thị trạng thái bàn bằng màu sắc trực quan (trống/có người)
 - Hỗ trợ tính năng giảm giá khi thanh toán
 - Tự động cập nhật trạng thái bàn sau khi thanh toán
 
+![image](https://github.com/user-attachments/assets/612814f2-b2e9-488c-9f2e-8c45761334e8)
+
+![image](https://github.com/user-attachments/assets/393fe044-13ca-462b-a3c7-2436ec22ee70)
+
 ### Chức năng quản lý thực đơn
 - Tìm kiếm món ăn theo từ khóa
 - Thêm/sửa/xóa món ăn và danh mục dễ dàng
 - Hiển thị thông tin món ăn trực quan
 
+![image](https://github.com/user-attachments/assets/5ca9cd38-434d-4f1b-887c-b1882015fe3e)
+
 ### Chức năng ghi log hoạt động
 - Ghi lại các hoạt động đăng nhập, thanh toán, tạo hóa đơn
 - Hỗ trợ kiểm soát và theo dõi hoạt động hệ thống
+
+![image](https://github.com/user-attachments/assets/fdf40f1c-f374-42f4-965f-cd3e373539a3)
 
 ### Báo cáo thống kê
 - Báo cáo doanh thu theo mốc thời gian tùy chọn (Ngày/Tháng/Năm)
 - Báo cáo món ăn bán chạy
 - Báo cáo những món ăn thường được mua cùng nhau
+
+![image](https://github.com/user-attachments/assets/48d9bf71-3633-41af-9a54-319b6f3ca988)
+
+![image](https://github.com/user-attachments/assets/99d85a54-8834-4107-85f7-136b098040df)
+
+![image](https://github.com/user-attachments/assets/10005ceb-0935-45f2-b9f2-516a66108a2d)
 
 ## Cài đặt
 
@@ -66,10 +84,9 @@ Hệ thống được xây dựng theo mô hình kiến trúc 3 lớp:
 
 1. Clone repository từ GitHub:
 ```
-git clone https://github.com/Trinhnnt/QuanLyQuanCafe.git
+[git clone https://github.com/Trinhnnt/QuanLyQuanCafe.git](https://github.com/Trinhnnt/QuanLyQuanCafe.git)
 ```
-
-2. Mở SQL Server Management Studio và chạy script cơ sở dữ liệu trong thư mục `database`
+2. Mở SQL Server Management Studio và chạy script cơ sở dữ liệu `DataSQL`
 
 3. Mở project trong Visual Studio và cấu hình chuỗi kết nối trong file `DataProvider.cs`
 
@@ -90,11 +107,11 @@ git clone https://github.com/Trinhnnt/QuanLyQuanCafe.git
 
 ### Quản lý thực đơn (Admin)
 1. Chuyển đến tab "Thực đơn" trong giao diện Admin
-2. Sử dụng các nút "Thêm", "Xóa", "Sửa" để quản lý món ăn
+2. Sử dụng các nút "Thêm", "Xóa", "Sửa", "Tìm Kiếm" để quản lý món ăn
 
 ### Xem báo cáo doanh thu (Admin)
 1. Chuyển đến tab "Doanh thu" trong giao diện Admin
-2. Chọn khoảng thời gian và nhấn "Thống kê"
+2. Chọn khoảng thời gian và nhấn "Tạo báo cáo"
 
 ## Ưu điểm của hệ thống
 
@@ -147,4 +164,4 @@ Hệ thống sử dụng các bảng chính:
 
 ## Liên hệ
 
-Nếu có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ qua email: [email@example.com]
+Nếu có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ qua email: [nguyenngoctutrinh92@gmail.com]
