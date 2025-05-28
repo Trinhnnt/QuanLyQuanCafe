@@ -29,7 +29,8 @@ Hệ thống được xây dựng theo mô hình kiến trúc 3 lớp:
 - Đăng nhập an toàn với phân quyền Admin/Staff
 - Xử lý thông báo lỗi khi nhập sai tên tài khoản/mật khẩu
 - Bảo mật thông tin tài khoản
-![![image](https://github.com/user-attachments/assets/85aee582-aab3-4bc8-a5e4-dc93a37ba8b4)]
+![Alt text]![image](https://github.com/user-attachments/assets/486b4173-b0d2-465e-aac1-b2f1e53761aa)
+
 ### Chức năng khôi phục tài khoản
 - Tài khoản không bị xóa hoàn toàn, có thể khôi phục lại trong trường hợp cần thiết
 - Hỗ trợ quản lý tài khoản linh hoạt
