@@ -84,7 +84,7 @@ Hệ thống được xây dựng theo mô hình kiến trúc 3 lớp:
 
 1. Clone repository từ GitHub:
 ```
-[git clone https://github.com/Trinhnnt/QuanLyQuanCafe.git](https://github.com/Trinhnnt/QuanLyQuanCafe.git)
+[git clone https://github.com/Trinhnnt/QuanLyQuanCafe.git]
 ```
 2. Mở SQL Server Management Studio và chạy script cơ sở dữ liệu `DataSQL`
 
